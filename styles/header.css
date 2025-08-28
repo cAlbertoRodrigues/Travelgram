@@ -44,3 +44,41 @@ header .container {
     gap: 8px;
     width: 280px;
 }
+
+@media (max-width: 768px) {
+  header {
+    padding-block: 24px;
+  }
+
+  header .container {
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+  }
+
+  #profile {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 16px;
+  }
+
+  #profile img {
+    width: 120px;
+    height: 120px;
+  }
+
+  #profile > div {
+    max-width: 100%;
+  }
+
+  #info {
+    flex-direction: row;
+    justify-content: center;
+    gap: 16px;
+  }
+
+  #info li {
+    width: auto;
+  }
+}

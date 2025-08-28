@@ -23,3 +23,19 @@ nav ul li:last-child img {
     border-radius: 50%;
 }
 
+@media (max-width: 768px) {
+  nav {
+    padding-block: 12px;
+  }
+
+  nav ul {
+    gap: 8px;
+  }
+
+  nav ul li {
+    display: none;
+  }
+  nav ul li:last-child {
+    display: flex;
+  }
+}
